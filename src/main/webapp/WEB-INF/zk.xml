@@ -4,13 +4,16 @@
 	<!-- [Optional]
 	Uncomment if you want to defines the application's name 
 	
-	<preference>
-		<name>org.zkoss.zk.ui.WebApp.name</name>
-		<value>example</value>
-	</preference>
-	-->
-	<library-property>
-		<name>org.zkoss.zkmax.tablet.ui.disabled</name>
-		<value>true</value>
-	</library-property>
+    <preference>
+            <name>org.zkoss.zk.ui.WebApp.name</name>
+            <value>example</value>
+    </preference>
+    -->
+    <system-config>
+        <ui-factory-class>org.zkoss.zk.ui.http.SerializableUiFactory</ui-factory-class>
+    </system-config>
+    <library-property>
+        <name>org.zkoss.zkmax.tablet.ui.disabled</name>
+        <value>true</value>
+    </library-property>
 </zk>
